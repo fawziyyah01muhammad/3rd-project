@@ -3,26 +3,29 @@ body{
 }
 .container{
     background-color: white;
-    border-radius: 20px;
+    border-radius: 15px;
     color: hsl(220, 15%, 55%);
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    margin:5% 20%;
+    margin:20px auto;
     text-align: center;
-    width:300px;
-    padding: 12px;
+    width:350px;
+    height: 100%;
+    padding: 10px 10px 30px 10px;
 }
 img{
-    width: 250px;
+    width: 100%;
     border-radius: 20px;
-    margin: 5px;
+
 }
 h2{
-    font-size: 20px;
+    font-size: 25px;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+p{
+    font-size: 18px;
+}
 @media(max-width:958px){
     .container{
         margin: 10% 0px;
